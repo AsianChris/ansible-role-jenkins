@@ -1,7 +1,7 @@
 ---
 
 - name: Apt Key
-  apt_key: url=https://jenkins-ci.org/debian/jenkins-ci.org.key state=present
+  apt_key: url=http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key state=present
   register: newKey
   sudo: yes
 
